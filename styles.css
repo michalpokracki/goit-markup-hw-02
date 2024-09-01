@@ -1,0 +1,102 @@
+:root {
+    --color-slate: #434455;
+    --color-iris: #4D5AE5;
+    --color-ocean: #404BFB;
+    --color-navy-blue: #222F42;
+    --color-white: #FFFFFF;
+    --color-cornflower: #E7E9FC;
+    --color-light-slate: #888F99;
+    --color-cloud: #F4F4FD
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-slate);
+}
+
+a {
+    color: var(--color-slate);
+    text-decoration: none;
+}
+
+.hero {
+    background-color: var(--color-navy-blue);
+}
+
+.hero-btn {
+    background-color: var(--color-iris);
+    cursor: pointer;
+    color: var(--color-white);
+}
+
+.team {
+    background-color: var(--color-cloud);
+}
+
+.portfolio-filter-btn {
+    background-color: var(--color-cornflower);
+    cursor: pointer;
+    color: var(--color-iris);
+}
+
+.portfolio-filter-btn.active {
+    background-color: var(--color-ocean);
+    cursor: pointer;
+    color: var(--color-white);
+}
+
+button:hover,
+button:active {
+    background-color: var(--color-ocean);
+    color: var(--color-white);
+}
+
+h1 {
+    font-size: 56px;
+    color: var(--color-white);
+    line-height: 2.5;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 1.66;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+a:hover,
+a:focus {
+    color: var(--color-iris);
+}
+
+footer {
+    background-color: var(--color-navy-blue);
+    color: var(--color-white);
+    padding: 20px 0;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: var(--color-iris);
+}
+
+.logo-span {
+    color: var(--color-navy-blue);
+}
+
+footer .logo-span {
+    color: var(--color-white);
+}
+
+footer p {
+    color: var(--color-white);
+}
